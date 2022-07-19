@@ -1,5 +1,4 @@
 import streamlit as st
-import panda as pd
 
 st.header("Alan Jones")
 st.subheader("Writer and Developer")
