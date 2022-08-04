@@ -1,18 +1,21 @@
 import streamlit as st
 
-def intro():
-    import streamlit as st
+st.set_page_config(
+    page_title="Hai!",
+    page_icon="👋",
+)
 
-    st.write("# Hai, mari mengenal Cybercrime lebih dekat!👋")
-    st.header("Apa sih Cybercrime itu?")
-    st.sidebar.success("Silakan pilih salah satu artikel dari dropdown diatas")
+st.write("# Mari mengenal Cybercrime lebih dekat! 👋")
 
-    st.markdown(
-        """
-        Cybercrime adalah penggunaan komputer sebagai alat untuk meraih tujuan ilegal, seperti penipuan, 
-        perdagangan konten pornografi anak, pencurian identitas, serta pelanggaran privasi. 
-        Perbedaan utama kejahatan siber dengan tindakan kriminal konvensional adalah kehadiran 
-        peran teknologi yang seolah-olah mempermudah tindakan buruk tersebut.
+st.sidebar.success("Pilih salah satu artikel dibawah ini.")
+
+st.markdown(
     """
-    )
+    Secara umum, arti dari cybercrime adalah suatu bentuk kejahatan virtual dengan memanfaatkan perangkat 
+    komputer yang terhubung dengan jaringan Internet. Tindakan tersebut tentunya melanggar hukum, sebab dapat menimbulkan kerugian bagi orang lain.
+    Menyadur dari buku Etika Profesi Informatika oleh Muhammad Ridha Albaar, kejahatan siber pertama kali ditemukan 
+    pada 1988 dengan istilah cyber attack. Saat itu, seorang mahasiswa berhasil menciptakan sebuah worm atau virus 
+    yang dapat menyerang program komputer dan dapat mematikan sekitar 10 persen dari seluruh jumlah komputer di dunia yang terhubung di Internet.
+"""
+)
    
