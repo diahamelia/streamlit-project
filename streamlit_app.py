@@ -19,7 +19,6 @@ st.markdown(
 """
 )
 
-def cybercrime_type()
 import streamlit as st
 
 st.set_page_config(page_title="Tipe-tipe Cybercrime", page_icon="⚠️")
