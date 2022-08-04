@@ -16,11 +16,3 @@ def intro():
     """
     )
    
-page_names_to_funcs = {
-    "Home": intro,
-    "Tipe-tipe Cybercrime": cybercrime_type,
-    "Cara memproteksi diri dari Cybercrime": cybercrime_protection,
-}
-
-demo_name = st.sidebar.selectbox("Pilih artikel", page_names_to_funcs.keys())
-page_names_to_funcs[demo_name]()
