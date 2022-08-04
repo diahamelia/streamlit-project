@@ -43,10 +43,7 @@ def cybercrime_protection():
    
 def cybercrime_type():
     import streamlit as st
-    import time
-    import numpy as np
-
-    st.markdown(f'# {list(page_names_to_funcs.keys())[1]}')
+    
     st.write(
         """
         This demo illustrates a combination of plotting and animation with
