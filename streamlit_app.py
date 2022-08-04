@@ -207,11 +207,10 @@ def data_frame_demo():
         )
 
 page_names_to_funcs = {
-    "—": intro,
-    "Plotting Demo": plotting_demo,
-    "Mapping Demo": mapping_demo,
-    "DataFrame Demo": data_frame_demo
+    "Home": intro,
+    "Tipe-tipe Cybercrime": cybercrime_type,
+    "Cara memproteksi diri dari Cybercrime": cybercrime_rotection,
 }
 
-demo_name = st.sidebar.selectbox("Choose a demo", page_names_to_funcs.keys())
+demo_name = st.sidebar.selectbox("Pilih artikel", page_names_to_funcs.keys())
 page_names_to_funcs[demo_name]()
