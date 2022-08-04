@@ -3,29 +3,21 @@ import streamlit as st
 def intro():
     import streamlit as st
 
-    st.write("# Welcome to Streamlit! 👋")
-    st.sidebar.success("Select a demo above.")
+    st.write("# Mari mengenal Cybercrime lebih dekat🕵️")
+    st.sidebar.success("Silakan pilih artikel dari dropdown berikut.")
 
     st.markdown(
         """
-        Streamlit is an open-source app framework built specifically for
-        Machine Learning and Data Science projects.
-
-        **👈 Select a demo from the dropdown on the left** to see some examples
-        of what Streamlit can do!
-
-        ### Want to learn more?
-
-        - Check out [streamlit.io](https://streamlit.io)
-        - Jump into our [documentation](https://docs.streamlit.io)
-        - Ask a question in our [community
-          forums](https://discuss.streamlit.io)
-
-        ### See more complex demos
-
-        - Use a neural net to [analyze the Udacity Self-driving Car Image
-          Dataset](https://github.com/streamlit/demo-self-driving)
-        - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
+        Teknologi yang terus berkembang, tak lantas membebaskan kita dari berbagai jenis kejahatan di dunia maya atau cybercrime. 
+        Pengertian cybercrime adalah sebuah kejahatan menggunakan komputer, Internet, dan sebagainya.
+        Umumnya, jenis kejahatan ini dimanfaatkan oleh para pelakunya untuk mendapatkan informasi secara ilegal, memanipulasi data, 
+        dan berbagai tindakan kejahatan virtual lainnya guna mendapatkan keuntungan. 
+        Terus, apa sih yang dimaksud dengan cybercrime?.
+        Oke, jadi Cybercrime adalah uatu bentuk kejahatan virtual dengan memanfaatkan perangkat komputer yang terhubung dengan jaringan Internet. 
+        Tindakan tersebut tentunya melanggar hukum, sebab dapat menimbulkan kerugian bagi orang lain.
+        Menyadur dari buku Etika Profesi Informatika oleh Muhammad Ridha Albaar, kejahatan siber pertama kali ditemukan pada 1988 dengan istilah cyber attack. 
+        Saat itu, seorang mahasiswa berhasil menciptakan sebuah worm atau virus yang dapat menyerang program komputer dan dapat mematikan sekitar 10 persen 
+        dari seluruh jumlah komputer di dunia yang terhubung di Internet.
     """
     )
 
