@@ -3,29 +3,16 @@ import streamlit as st
 def intro():
     import streamlit as st
 
-    st.write("# Hai!👋")
-    st.sidebar.success("Cybercrime")
+    st.write("# Hai, mari mengenal Cybercrime lebih dekat!👋")
+    st.sidebar.success("Silakan pilih salah satu artikel dari dropdown diatas")
 
     st.markdown(
         """
-        Streamlit is an open-source app framework built specifically for
-        Machine Learning and Data Science projects.
+        Cybercrime adalah penggunaan komputer sebagai alat untuk meraih tujuan ilegal, seperti penipuan, 
+        perdagangan konten pornografi anak, pencurian identitas, serta pelanggaran privasi. 
+        Perbedaan utama kejahatan siber dengan tindakan kriminal konvensional adalah kehadiran 
+        peran teknologi yang seolah-olah mempermudah tindakan buruk tersebut.
 
-        **👈 Select a demo from the dropdown on the left** to see some examples
-        of what Streamlit can do!
-
-        ### Want to learn more?
-
-        - Check out [streamlit.io](https://streamlit.io)
-        - Jump into our [documentation](https://docs.streamlit.io)
-        - Ask a question in our [community
-          forums](https://discuss.streamlit.io)
-
-        ### See more complex demos
-
-        - Use a neural net to [analyze the Udacity Self-driving Car Image
-          Dataset](https://github.com/streamlit/demo-self-driving)
-        - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
     """
     )
 
