@@ -1,4 +1,5 @@
 import streamlit as st
+
 st.set_page_config(
     page_title="Cybercrime?",
     page_icon="👾",
@@ -216,7 +217,7 @@ def data_frame_demo():
         )
 
 page_names_to_funcs = {
-    "—": intro,
+    "Home": intro,
     "Plotting Demo": plotting_demo,
     "Mapping Demo": mapping_demo,
     "DataFrame Demo": data_frame_demo
