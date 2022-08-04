@@ -1,8 +1,8 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Hai!",
-    page_icon="👋",
+    page_title="Cybercime?",
+    page_icon="🕵",
 )
 
 st.write("# Mari mengenal Cybercrime lebih dekat! 👋")
