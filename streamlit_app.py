@@ -1,10 +1,5 @@
 import streamlit as st
 
-st.set_page_config(
-    page_title="Cybercrime?",
-    page_icon="👾",
-)
-
 def intro():
     import streamlit as st
 
