@@ -16,7 +16,7 @@ def intro():
     """
     )
 
-def cybercrime_type():
+def cybercrime_protection():
     import streamlit as st
     import pandas as pd
     import pydeck as pdk
@@ -33,7 +33,7 @@ to display geospatial data.
     )
 
    
-def cybercrime_protection():
+def cybercrime_type():
     import streamlit as st
     import time
     import numpy as np
