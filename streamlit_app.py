@@ -7,7 +7,7 @@ st.set_page_config(
 
 st.write("# Mari mengenal Cybercrime lebih dekat! 👋")
 
-st.sidebar.success("Pilih salah satu artikel dibawah ini.")
+st.sidebar.success("Pilih salah satu artikel dari dropdown berikut.")
 
 st.markdown(
     """
