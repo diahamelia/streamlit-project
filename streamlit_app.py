@@ -1,23 +1,33 @@
 import streamlit as st
 
-st.set_page_config(
-    page_title="Cybercime?",
-    page_icon="🕵",
-)
+def intro():
+    import streamlit as st
 
-st.write("# Mari mengenal Cybercrime lebih dekat! 👋")
+    st.write("# Welcome to Streamlit! 👋")
+    st.sidebar.success("Select a demo above.")
 
-st.sidebar.success("Pilih salah satu artikel dari dropdown berikut.")
+    st.markdown(
+        """
+        Streamlit is an open-source app framework built specifically for
+        Machine Learning and Data Science projects.
 
-st.markdown(
+        **👈 Select a demo from the dropdown on the left** to see some examples
+        of what Streamlit can do!
+
+        ### Want to learn more?
+
+        - Check out [streamlit.io](https://streamlit.io)
+        - Jump into our [documentation](https://docs.streamlit.io)
+        - Ask a question in our [community
+          forums](https://discuss.streamlit.io)
+
+        ### See more complex demos
+
+        - Use a neural net to [analyze the Udacity Self-driving Car Image
+          Dataset](https://github.com/streamlit/demo-self-driving)
+        - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
     """
-    Secara umum, arti dari cybercrime adalah suatu bentuk kejahatan virtual dengan memanfaatkan perangkat 
-    komputer yang terhubung dengan jaringan Internet. Tindakan tersebut tentunya melanggar hukum, sebab dapat menimbulkan kerugian bagi orang lain.
-    Menyadur dari buku Etika Profesi Informatika oleh Muhammad Ridha Albaar, kejahatan siber pertama kali ditemukan 
-    pada 1988 dengan istilah cyber attack. Saat itu, seorang mahasiswa berhasil menciptakan sebuah worm atau virus 
-    yang dapat menyerang program komputer dan dapat mematikan sekitar 10 persen dari seluruh jumlah komputer di dunia yang terhubung di Internet.
-"""
-)
+    )
 
 def mapping_demo():
     import streamlit as st
@@ -210,6 +220,7 @@ def data_frame_demo():
         )
 
 page_names_to_funcs = {
+    "—": intro,
     "Plotting Demo": plotting_demo,
     "Mapping Demo": mapping_demo,
     "DataFrame Demo": data_frame_demo
