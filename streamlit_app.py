@@ -46,9 +46,14 @@ def cybercrime_type():
     
     st.write(
         """
-        This demo illustrates a combination of plotting and animation with
-Streamlit. We're generating a bunch of random numbers in a loop for around
-5 seconds. Enjoy!
+        1.	Penipuan internet atau penipuan yang dilakukan di sebuah situs internet dan email
+        2.	Penipuan identitas yang dimana seseorang sudah atau telah mencuri infromasi dari perangkat kita dan menyalahgunakan informasi yang mereka curi.
+        3.	Mencuri curi uang dari kartu kredit atau kartu pembayaran
+        4.	Mencuri dan menjual data perusahaan 
+        5.	Pemerasan secara online 
+        6.	Mencuri investasi koin di dalam computer atau menambang koin dengan merentas computer 
+        7.	Meretas data pemerintah atau perusahaan
+
 """
     )
    
