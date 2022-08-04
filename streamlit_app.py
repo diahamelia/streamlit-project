@@ -15,47 +15,6 @@ def intro():
         peran teknologi yang seolah-olah mempermudah tindakan buruk tersebut.
     """
     )
-
-def cybercrime_protection():
-    import streamlit as st
-    
-        st.write(
-        """
-        1.	Gunakan layanan pengamanan internet seperti defender yang dapat melindungi komputer dari malware 
-        (sebuah perangkat lunak yang dibuat untuk masuk , sistem computer atau server tanpa di ketahui dengan tujuan 
-        untuk menginfeksi dan merusak) dan membantu menjaga data pribadi serta informasi finansial ketika kita sedang online
-        2.	Gunakan password yang kuat, megubah password secara berkala dan gunakanlah kombinasi huruf, angka, dan simbol serta panjang
-        password yang lebih dari 13 karakter
-        3.	Usahakan untuk selalu memperbaharui software atau perangkat lunak karena penting untuk operasi sistem dan keamanan perangkat lunak.
-        4.	Mengatur pengaturan media sosial kita, gunakan 2 Factor Authentication dan tetap menjaga infromasi pribadi karena mereka dapat mengambil 
-        beberapa informasi pribadi kita di media sosial. Kita harus juga bijak dalam menggunakan media sosial
-        5.	Gunakan kata sandi jaringan yang kuat, boleh menggunakan VPN ketika menggunakan jaringan public agar IP address yang kita gunakan tidak terlihat.
-        6.	Diksusikan dengan anak-anak ketika mereka menggunakan internet bagaimana cara mereka mematikan saluran yang membuat 
-        mereka tidak nyaman, seperti pelecehan, pengungtit, atau bullying (gertakan).
-        7.	Jika kamu melaukan bisnis perdagangan dan mengetahui ada yang mencurigakan di akun web penjualanmu segera lakukan pengubahan kata sandi 
-        dan segera lakukan pengecekan terhadap semua sistem bisnismu.
-        8.	Pencurian identitas terjadi ketika seseornag secara tidak sengaja memperoleh data pribadi kita dan orang akan menggunakan data 
-        tersebut untuk penipuan untuk keuntungan ekonomi jadi jangan pernah membuka lampiran di email spam karena 
-        dapat diduga itu adalah link untuk serangan sebuah malware
-"""
-    )
-
-   
-def cybercrime_type():
-    import streamlit as st
-    
-    st.write(
-        """
-        1.	Penipuan internet atau penipuan yang dilakukan di sebuah situs internet dan email
-        2.	Penipuan identitas yang dimana seseorang sudah atau telah mencuri infromasi dari perangkat kita dan menyalahgunakan informasi yang mereka curi.
-        3.	Mencuri curi uang dari kartu kredit atau kartu pembayaran
-        4.	Mencuri dan menjual data perusahaan 
-        5.	Pemerasan secara online 
-        6.	Mencuri investasi koin di dalam computer atau menambang koin dengan merentas computer 
-        7.	Meretas data pemerintah atau perusahaan
-
-"""
-    )
    
 page_names_to_funcs = {
     "Home": intro,
