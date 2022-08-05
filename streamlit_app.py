@@ -21,7 +21,7 @@ def intro():
     """
     )
 
-def mapping_demo():
+def cybercrime_prevention():
     import streamlit as st
     import pandas as pd
     import pydeck as pdk
@@ -118,7 +118,7 @@ to display geospatial data.
             % e.reason
         )
 
-def plotting_demo():
+def cybercrime_type():
     import streamlit as st
     import time
     import numpy as np
@@ -153,7 +153,7 @@ Streamlit. We're generating a bunch of random numbers in a loop for around
     st.button("Re-run")
 
 
-def data_frame_demo():
+def case_study():
     import streamlit as st
     import pandas as pd
     import altair as alt
@@ -213,10 +213,10 @@ def data_frame_demo():
 
 page_names_to_funcs = {
     "Home": intro,
-    "Plotting Demo": plotting_demo,
-    "Mapping Demo": mapping_demo,
-    "DataFrame Demo": data_frame_demo
+    "Tipe-tipe Cybercrime": cybercrime_type,
+    "Cara menghindari Cybercrime": cybercrime_prevention,
+    "Contoh kasus Cybercrime": case_study
 }
 
-demo_name = st.sidebar.selectbox("Choose a demo", page_names_to_funcs.keys())
+demo_name = st.sidebar.selectbox("Pilih artikel", page_names_to_funcs.keys())
 page_names_to_funcs[demo_name]()
