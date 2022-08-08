@@ -54,15 +54,15 @@ def cybercrime_type():
         
         2. Spoofing
         Spoofing adalah penyamaran informasi seakan-akan berperan sebagai pihak berwenang, seperti dari bank atau pemerintah untuk tujuan kejahatan siber.
-        Mirip seperti phising yang mencoba mencuri data korban, bedanya, spoofing tak hanya mencuri data, tapi dalam beberapa kasus juga mengirimkan malware berbahaya 
-        ke perangkat atau website korban. Ada berbagai jenis spooofing, mulai dari identity spoofing, IP spoofing, DNS spoofing, hingga website spoofing.
+        Mirip seperti phising yang mencoba mencuri data korban, bedanya, spoofing tak hanya mencuri data, tapi dalam beberapa kasus juga mengirimkan malware 
+        berbahaya ke perangkat atau website korban. Ada berbagai jenis spooofing, mulai dari identity spoofing, IP spoofing, DNS spoofing, hingga website spoofing.
         
         3. Cracking
         Cracking adalah percobaan memasuki sistem komputer secara paksa dengan meretas sistem keamanan software atau komputer untuk tujuan ilegal yang mengarah 
         ke kriminalisme. Pelaku cracking melakukan aksinya untuk mencuri, melihat, memanipulasi data hingga penanaman malware. Ada berbagai jenis cracking 
         yang sering terjadi, misalnya password cracking, software cracking, dan network cracking. Berbagai jenis serangan cracking bisa kamu hindari misalnya dengan 
-        membuat kombinasi password unik, menggunakan VPN, mengunjungi situs yang sudah menggunakan HTTPS, dan menghindari klik tautan atau iklan di internet J
-        ika kamu memiliki website bisnis, terutama yang menyimpan data pelanggan, sebaiknya kamu melakukan penetration testing untuk menguji tingkat keamanan dari 
+        membuat kombinasi password unik, menggunakan VPN, mengunjungi situs yang sudah menggunakan HTTPS, dan menghindari klik tautan atau iklan di internet 
+        Jika kamu memiliki website bisnis, terutama yang menyimpan data pelanggan, sebaiknya kamu melakukan penetration testing untuk menguji tingkat keamanan dari 
         kejahatan cracking.
         
         4. Serangan Ransomware
@@ -78,17 +78,17 @@ def cybercrime_type():
         data yang besar. Teknik penyerangan DDoS biasanya dilaksanakan dengan banyak cara, seperti virus dan kumpulan bot yang disisipkan pada malware yang disebut botnet.
         
         6. Injeksi SQL
-        Injeksi SQL adalah teknik serangan injeksi kode dengan memanfaatkan celah keamanan yang terjadi pada layer basis data sebuah aplikasi. Contoh cybercrime ini merupakan 
-        ancaman nomor satu terhadap keamanan aplikasi web. Hal ini umumnya terjadi akibat pengembang aplikasi tidak mengimplementasikan filter terhadap beberapa metakarakter 
-        yang digunakan dalam sintaks SQL, sehingga penyerang dapat menginput metakarakter tersebut menjadi instruksi pada aplikasi untuk mengakses database. Serangan SQL juga 
-        dapat terjadi jika backend tidak melakukan setting Web Application Firewall (WAF) atau Intrusion Prevention System (IPS) di arsitektur jaringan dengan baik, sehingga 
-        database bisa diakses langsung dari celah kerawanan yang ditemukan.
+        Injeksi SQL adalah teknik serangan injeksi kode dengan memanfaatkan celah keamanan yang terjadi pada layer basis data sebuah aplikasi. 
+        Contoh cybercrime ini merupakan ancaman nomor satu terhadap keamanan aplikasi web. Hal ini umumnya terjadi akibat pengembang aplikasi tidak mengimplementasikan 
+        filter terhadap beberapa metakarakter yang digunakan dalam sintaks SQL, sehingga penyerang dapat menginput metakarakter tersebut menjadi instruksi pada aplikasi 
+        untuk mengakses database. Serangan SQL juga dapat terjadi jika backend tidak melakukan setting Web Application Firewall (WAF) atau Intrusion Prevention System (IPS)
+        di arsitektur jaringan dengan baik, sehingga database bisa diakses langsung dari celah kerawanan yang ditemukan.
         
         7. Carding
         Carding adalah kejahatan melakukan pencurian data informasi kartu kredit milik orang lain. Data tersebut kemudian digunakan oleh pelaku untuk melakukan transaksi 
         atau mencairkan saldo limit kartu ke rekening mereka. Ada dua kategori carding, pertama adalah Card Present, yaitu proses pencurian data dilakukan menggunakan card 
-        skimmer mesin EDC yang ada di kasir/tempat komersial. Kedua adalah Card not Present, yaitu pencurian data menggunakan akses internet, biasanya menggunakan email phising 
-        atau hacking untuk mendapatkan data-data pemilik kartu kredit.
+        skimmer mesin EDC yang ada di kasir/tempat komersial. Kedua adalah Card not Present, yaitu pencurian data menggunakan akses internet, biasanya menggunakan email 
+        phising atau hacking untuk mendapatkan data-data pemilik kartu kredit.
         
         8. Peretasan Situs dan Email
         Sesuai dengan namanya, kejahatan siber yang paling populer ini dilakukan dengan meretas sebuah situs atau email korban serta mengubah tampilannya. 
@@ -119,9 +119,9 @@ def cybercrime_type():
         13. Cyber Terrorism
         Cyber terrorism adalah jenis kejahatan siber yang merugikan negara, bahkan mengancam keselamatan warga dan stakeholder yang mengatur jalannya pemerintahan. 
         Aktivitas terorisme siber merujuk pada serangan terhadap komputer, jaringan, dan sistem informasi dengan tujuan mengintimidasi, menekan pemerintah, atau untuk kepentingan politik tertentu.
-"""
+    """
     )
-
+    
 def case_study():
     import streamlit as st
     
