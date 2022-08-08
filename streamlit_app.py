@@ -28,6 +28,7 @@ def cybercrime_prevention():
         """
         Seperti yang kita ketahui bahwa serangan Cybercrime bisa saja masuk kedalam perangkat kita, juga dari diri kita sendiri
         Maka, langkah preventif yang dapat dilakukan adalah diantaranya:
+        
         1. Selalu menginstall software terbaru, hal ini dilakukan agar tidak ada celah untuk serangan yang masuk kedalam sistem kita
         2. Menggunakan defender bawaan dari operating system
         3. Tidak sembarangan membuka tautan dari email, karena bisa saja di dalam lampiran email tersebut terdapat file malware
@@ -36,6 +37,7 @@ def cybercrime_prevention():
         5. Menggunakan password yang kuat, indikator password yang kuat adalah password dengan panjang karakter lebih dari 12 dan terdiri
         dari huruf kapital, huruf kecil, angka dan symbol
         6. Baca syarat dan ketentuan data privasi ketika mendaftar dalam layanan web
+        
     """
     )
 
