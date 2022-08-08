@@ -32,10 +32,8 @@ def cybercrime_prevention():
         1. Selalu menginstall software terbaru, hal ini dilakukan agar tidak ada celah untuk serangan yang masuk kedalam sistem kita
         2. Menggunakan defender bawaan dari operating system
         3. Tidak sembarangan membuka tautan dari email, karena bisa saja di dalam lampiran email tersebut terdapat file malware
-        4. Tidak sembarangan meng-klik link yang ada dari email, pastikan nama pengirim, domain email, apakah ada tulisan yang typo telah dicek
-        karena kalau sampai ada salah satunya, maka wajib berhati-hati
-        5. Menggunakan password yang kuat, indikator password yang kuat adalah password dengan panjang karakter lebih dari 12 dan terdiri
-        dari huruf kapital, huruf kecil, angka dan symbol
+        4. Tidak sembarangan meng-klik link yang ada dari email, pastikan nama pengirim, domain email, apakah ada tulisan yang typo telah dicek karena kalau sampai ada salah satunya, maka wajib berhati-hati
+        5. Menggunakan password yang kuat, indikator password yang kuat adalah password dengan panjang karakter lebih dari 12 dan terdiri dari huruf kapital, huruf kecil, angka dan symbol
         6. Baca syarat dan ketentuan data privasi ketika mendaftar dalam layanan web
         
     """
