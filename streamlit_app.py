@@ -13,7 +13,7 @@ def intro():
         Umumnya, jenis kejahatan ini dimanfaatkan oleh para pelakunya untuk mendapatkan informasi secara ilegal, memanipulasi data, 
         dan berbagai tindakan kejahatan virtual lainnya guna mendapatkan keuntungan. 
         Terus, apa sih yang dimaksud dengan cybercrime?.
-        Oke, jadi Cybercrime adalah uatu bentuk kejahatan virtual dengan memanfaatkan perangkat komputer yang terhubung dengan jaringan Internet. 
+        Oke, jadi Cybercrime adalah suatu bentuk kejahatan virtual dengan memanfaatkan perangkat komputer yang terhubung dengan jaringan Internet. 
         Tindakan tersebut tentunya melanggar hukum, sebab dapat menimbulkan kerugian bagi orang lain.
         Menyadur dari buku Etika Profesi Informatika oleh Muhammad Ridha Albaar, kejahatan siber pertama kali ditemukan pada 1988 dengan istilah cyber attack. 
         Saat itu, seorang mahasiswa berhasil menciptakan sebuah worm atau virus yang dapat menyerang program komputer dan dapat mematikan sekitar 10 persen 
