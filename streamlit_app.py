@@ -128,7 +128,50 @@ def case_study():
     st.write("# Contoh kasus Cybercrime")
     st.markdown(
         """
-        Kalian tau gak sih .
+        Kalian tau gak sih ada beberapa kasus Cybercrime yang pernah terjadi di Indonesia, diantaranya adalah:
+        
+        1. Kasus BPJS Ketenagakerjaan (Mei, 2021)
+        Pada akhir Mei, situs milik Badan Penyelenggara Jaminan Sosial (BPJS) Kesehatan, yakni bpjs-kesehatan.go.id diduga diretas. 
+        Buntutnya, data milik 279 juta penduduk Indonesia diduga bocor dan dijual di forum online bernama Raid Forums.
+        Data yang dijual seharga harga 0,15 bitcoin (sekitar Rp 84,4 juta, kurs 20 Mei 2021) tersebut berisi NIK, nomor ponsel, e-mail, alamat, hingga gaji. 
+        Menurut pendalaman yang dilakukan oleh Kementerian Komunikasi dan Informatika (Kemenkominfo), disimpulkan bahwa sampel dataset tersebut diduga kuat identik 
+        dengan data milik BPJS Kesehatan. Kominfo pun akhirnya mengajukan pemutusan akses terhadap tautan (link) untuk mengunduh data pribadi tersebut, termasuk 
+        memblokir Raid Forums sebagai langkah antisipatif mencegah penyebaran data yang lebih luas. Terkait dugaan kebocoran data ini, BPJS Kesehatan, Kominfo, 
+        dan BSSN (Badan Siber dan Sandi Negara), sempat disebut akan digugat lewat Pengadilan Tata Usaha Negara (PTUN) oleh tim Periksa Data.
+        Salah satu tuntutan dalam gugatan tersebut adalah penggugat (tim Periksa Data) mendorong dilakukannya assessment (penilaian) terhadap dampak kebocoran data 
+        dan menyampaikannya ke publik.
+        
+        2. Kasus Asuransi BNI Life (Juli, 2021)
+        Pada 27 Juli 2021, giliran perusahaan asuransi BRI Life yang jadi korban peretasan. Insiden ini membuat sekitar 2 juta data nasabah BRI Life diduga bocor dan dijual dengan 
+        harga 7.000 dollar AS (sekitar Rp 101,6 juta, kurs 27 Juli 2021) di dunia maya. Kebocoran data ini pertama kali diungkap oleh akun Twitter @UnderTheBreach. 
+        Akun tersebut mengklaim bahwa hacker berhasil mengambil 250 GB data dari BRI Life, termasuk data 2 juta nasabah dalam format file PDF dan sekitar 463.000 dokumen lainnya. 
+        Adapun data nasabah yang bocor berisi informasi seperti foto KTP, rekening, nomor wajib pajak, akte kelahiran, hingga rekam medis. 
+        Dugaan kebocoran data ini terjadi karena adanya celah keamanan di dalam sistem elektronik BRI Life, yang disalahgunakan oleh pihak tak bertanggungjawab. 
+        Namun, berdasarkan hasil investigasi internal pihak BRI Life, peretasan menargetkan sistem BRILife Syariah. Menurut pihak BRI Life, sistem tersebut terpisah dengan sistem inti BRILife.
+        Adapun jumlah data yang terdapat di dalam sistem BRILife Syariah, sebesar 25.000 pemegang polis. 
+        
+        3. Situs Sekretariat Kabinet RI (Juli, 2021)
+        Hanya berselang beberapa hari, situs Sekretariat Kabinet (Setkab) Republik Indonesia (RI) yang beralamat setkab.go.id juga menjadi target serangan peretasan dengan metode deface. 
+        Secara sederhana, metode ini memungkinkan peretas (hacker) mengubah tampilan halaman web target peretasan. Perubahan tersebut bermacam-macam, seperti mengganti font website, memunculkan iklan yang mengganggu, 
+        bahkan peretas juga dapat mengubah tampilan keseluruhan web sasaran. Pada 30 Juli 2021, situs Setkab.go.id diretas dan tak bisa diakses. Kemudian, situs Setkab berubah tampilan menjadi hitam dengan foto yang menampilkan 
+        demonstran membawa bendera merah putih. Di bawahnya tertulis keterangan "Padang Blackhat ll Anon Illusion Team Pwned By Zyy Ft Luthfifake".
+        Polisi menduga peretasan ini dilakukan demi keuntungan ekonomi. Peretas bertujuan menjual script backdoor dari website yang jadi target kepada orang yang membutuhkan. Menurut penyelidikan sementara kepolisian, 
+        peretasan situs setkab.go.id terjadi akibat kelemahan pada sistem keamanan dan kelengahan operator. Lalu, seminggu setelah peretasan, situs Setkab sudah kembali ke tangan pemerintah. Pihak Setkab memastikan tidak ada dokumen rahasia pada situs Setkab.
+        
+        4. Aplikasi e-HAC milik Kemenkes (Agustus, 2021)
+        Setelah kasus BPJS Kesehatan, muncul kabar peretasan pada aplikasi Electronic Health Alert (e-HAC) buatan Kementerian Kesehatan (Kemenkes). Buntutnya, data milik 1,3 juta masyarakat Indonesia yang tersimpan di aplikasi e-HAC disebut bocor. 
+        Aplikasi e-HAC sendiri merupakan Kartu Kewaspadaan Kesehatan versi modern dan menjadi salah satu persyaratan wajib bagi masyarakat ketika bepergian di dalam maupun luar negeri. Kasus kebocoran data e-HAC pertama kali diungkap oleh peneliti keamanan siber dari VPNMentor, 
+        yang menemukan kebocoran data di aplikasi e-HAC pada 15 Juli lalu. VPNMentor mengeklaim, aplikasi e-HAC tidak memiliki protokol keamanan aplikasi yang memadai, sehingga rentan ditembus (di-hack) pihak tidak bertanggung jawab. 
+        Pengembang e-HAC disebut menggunakan database Elasticsearch yang kurang aman untuk menyimpan data. Kasus ini tidak hanya mengungkap data pengguna e-HAC, tetapi juga seluruh infrastruktur terkait e-HAC, seperti data tes Covid-19 yang dilakukan penumpang, data pribadi penumpang, 
+        data rumah sakit, hingga data staf e-HAC
+        
+        5. Peretasan jaringan Kementerian termasuk BIN (September, 2021)
+        Lalu, pada September 2021, sistem jaringan internal milik sepuluh kementerian dan lembaga negara Indonesia, termasuk milik Badan Intelijen Negara (BIN) dilaporkan telah diretas. Hal itu mencuat berdasarkan laporan terbaru dari sekelompok peneliti keamanan internet milik media 
+        internasional TheRecord, Insikt Group. Sayangnya, selain BIN, Insikt Group tidak merinci nama dari 9 jaringan kementerian dan lembaga negara Indonesia yang jadi target peretasan tersebut. Insikt Group hanya mengungkapkan, insiden peretasan itu berhubungan dengan Mustang Panda, 
+        kelompok hacker asal China yang biasa melakukan aktivitas mata-mata di dunia maya. Target operasinya sendiri berada di wilayah Asia Tenggara.
+        Insikt Group mendeteksi adanya server pengendali perintah (C&C) milik grup Mustang Panda, yang menjalankan malware berjenis PlugX. Server itu berkomunikasi dengan beberapa host yang kemungkinan telah terinfeksi di dalam jaringan internal milik pemerintah Indonesia. 
+        Namun, pihak BIN sendiri sudah membantah laporan peretasan tersebut, dengan mengatakan bahwa server BIN dalam kondisi aman terkendali.
+        
     """
     )
 
@@ -137,7 +180,6 @@ page_names_to_funcs = {
     "Tipe-tipe Cybercrime": cybercrime_type,
     "Cara menghindari Cybercrime": cybercrime_prevention,
     "Contoh kasus Cybercrime": case_study,
-    
 }
 
 demo_name = st.sidebar.selectbox("Pilih artikel", page_names_to_funcs.keys())
